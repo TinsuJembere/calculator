@@ -53,7 +53,7 @@ function App() {
   };
 
   const clear = () => {
-    setDisplay("");
+    setDisplay("0");
     setCurrentNumber("");
     setPreviousNumber(null);
     setOperator(null);
